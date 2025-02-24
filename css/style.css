@@ -1,0 +1,201 @@
+body,
+html {
+  /* general positioning of elements on the form */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.header_logo {
+  /* positioning of header section */
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.header_logo img {
+  /* styling and positioning of the JOMACS header logo */
+  display: block;
+  width: 150px;
+  height: auto;
+}
+
+p {
+  /* styling and positioning of form title */
+  justify-content: center;
+  text-align: center;
+  font-family: "Atkinson Hyperlegible Next", serif;
+  font-optical-sizing: auto;
+  font-weight: 800px;
+  font-style: normal;
+  font-size: 45px;
+  text-align: center;
+  color: rgb(238, 87, 100);
+  background-clip: text;
+}
+
+form {
+  /* general styling and positioning of form */
+  width: 750px;
+  margin: 0 auto;
+  height: 100vh;
+  font-family: "Atkinson Hyperlegible Next", serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(30, 33, 65);
+}
+
+fieldset {
+  /* styling and positioning of fieldset */
+  border: solid;
+  border-color: rgb(238, 87, 100);
+  border-style: ridge;
+  border-radius: 20px;
+  width: 500px;
+  height: 665px;
+  margin-left: 145px;
+  background-color: white;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+legend {
+  /* styling and positioning of the legend section */
+  font-family: "Atkinson Hyperlegible Next", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 35px;
+  text-align: center;
+  color: rgb(30, 33, 65);
+}
+
+input,
+select {
+  /* styling and positioning of input and select sections on the form */
+  width: fit-content;
+  border-radius: 8px;
+  height: 25px;
+  border: 2px solid;
+  border-color: rgb(30, 33, 65);
+  font-family: "Atkinson Hyperlegible Next", serif;
+  font-optical-sizing: auto;
+  font-weight: 9px;
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(238, 87, 100);
+}
+
+select option {
+  /* styling of 'select option' section */
+  color: rgb(238, 87, 100);
+}
+
+input::placeholder {
+  /* stlyling and positioning of input placeholder sections */
+  text-align: center;
+  color: rgb(238, 87, 100);
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+label {
+  /* positioning of the label sections */
+  width: 125px;
+  display: inline-block;
+  text-align: auto;
+  margin-left: 63px;
+}
+
+.gender {
+  /* positioning of the 'Gender' section */
+  display: flex;
+}
+
+input[type="radio"] {
+  /* styling and positioning of the radio button */
+  margin-left: 50 px;
+  accent-color: rgb(238, 87, 100);
+  border: 2px solid;
+}
+
+#male,
+#female,
+#other {
+  /* styling and positioning of the radio button options */
+  width: auto;
+  text-align: left;
+  display: flex;
+  padding: 4px;
+}
+
+#address {
+  /* styling and positioning of address input section */
+  width: 250px;
+  height: 50px;
+  border-radius: 8px;
+  border-color: rgb(30, 33, 65);
+}
+
+input[type="checkbox"] {
+  /* styling and positioning of the checkbox section */
+  outline: 0.5px auto rgb(30, 33, 65);
+  accent-color: rgb(238, 87, 100);
+}
+
+.newsletter {
+  /* positioning of the newsletter section */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#newsletter {
+  /* positioning of the 'Newsletter Subscription' label */
+  text-align: auto;
+  margin-right: 50px;
+}
+
+#checkbox {
+  /* positioning of the checkbox at 'Newsletter Subscription' section */
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.submit input[type="submit"] {
+  /* styling and positioning of the 'Submit' input section */
+  width: 250px;
+  height: 45px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  margin-left: 135px;
+  color: white;
+  background: rgb(30, 33, 65);
+  border-color: rgb(238, 87, 100);
+}
+
+.reset input[type="reset"] {
+  /* styling and positioning of the 'Reset' input section */
+  width: 125px;
+  height: 29px;
+  border: 2px solid;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+  color: white;
+  background: rgb(30, 33, 65);
+  border-color: rgb(238, 87, 100);
+}
+
+.submit input[type="submit"]:hover,
+.reset input[type="reset"]:hover {
+  /* further styling features for the 'Submit' and 'Reset' input sections */
+  background-color: rgb(238, 87, 100);
+}
